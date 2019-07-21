@@ -1,0 +1,35 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-image: url("./images/backgroundImage.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+.signInsignUp{
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    list-style-type: none;
+}
+
+.buttonOne{
+    margin-right: 75px;
+    padding-top:7px;
+    padding-bottom:7px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius:5px;
+}
+
+.buttonTwo{
+    padding-top:7px;
+    padding-bottom:7px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 42%;
+}
