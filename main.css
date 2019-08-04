@@ -45,18 +45,26 @@ body{
     padding-left: 12px;
     border-radius: 42%;
 }   
-
-.bottomThreeContainer{
-    text-align:center;
-    display: flex;
-    justify-content: space-around;
-    margin-top:40vh;
+.big{
+    margin-left:55px;
+    margin-top:30px;
 }
-
-.nashButton,
-.newButton,
-.portButton{
-    height:85px;
+.menuIcon{
+    list-style-type: none;
+    margin-bottom:20px;
+} 
+.companyName{
+    position: absolute;
+    top:6%;
+    left:8%;
+    font-size:40px;
+} 
+.mainHeading{
+    font-family:"Montserrat";
+    font-size: 35px;
+    margin-left:130px;
+    margin-top:60px;
+    font-weight: 800;
 }
 .itsBiggerContainer{
     position: absolute;
@@ -67,11 +75,6 @@ body{
     height:60px;
     margin-left: 30px;
     margin-top: 10px;
-}
-.exploreLine,
-.tagLine{
-    display:inline-block;
-    font-size: 14px;
 }
 .tagLine{
     position:absolute;
@@ -86,24 +89,25 @@ body{
     margin-top:-28px;
     font-size: 20px;
 }
-.mainHeading{
-    font-family:"Montserrat";
-    font-size: 35px;
-    margin-left:130px;
-    margin-top:60px;
-    font-weight: 800;
+.bottomThreeContainer{
+    text-align:center;
+    display: flex;
+    justify-content: space-around;
+    margin-top:40vh;
 }
-.big{
-    margin-left:55px;
-    margin-top:30px;
+
+.nashButton,
+.newButton,
+.portButton{
+    height:85px;
 }
-.menuIcon{
-    list-style-type: none;
-    margin-bottom:20px;
-}  
-.companyName{
-    position: absolute;
-    top:6%;
-    left:8%;
-    font-size:40px;
+
+
+.exploreLine,
+.tagLine{
+    display:inline-block;
+    font-size: 14px;
 }
+
+
+
